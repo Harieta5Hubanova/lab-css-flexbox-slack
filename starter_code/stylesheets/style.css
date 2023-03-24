@@ -1,3 +1,97 @@
+@media (max-width: 760px) {
+  header {
+    background-color: #540b51;
+  }
+  .ivory {
+    background-color: #f3eae2;
+  }
+
+  .list-items {
+    visibility: hidden;
+  }
+  header > div > h1 {
+    color: white;
+  }
+  #slack {
+    width: 200px;
+    margin: 30px;
+  }
+  nav {
+    background-color: #540b51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: 3em;
+    padding: 0px 80px;
+  }
+  .bicolor {
+    padding: 0px 80px;
+    font-size: 1.5em;
+    color: white;
+  }
+  .bicolor > span {
+    color: #ecb12f;
+  }
+  .buttons {
+    padding: 10px;
+  }
+  #buttonOne {
+    width: 700px;
+    height: 50px;
+    color: #540b51;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  #buttonTwo > span {
+    margin-right: 250px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+  }
+  #buttonTwo > img {
+    border-radius: 5px;
+    background-color: white;
+    width: 30px;
+  }
+
+  #buttonTwo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4285f4;
+    border-radius: 5px;
+    width: 700px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  #screenshot {
+    width: 1120px;
+  }
+  #airbnb,
+  #uber,
+  #spotify {
+    width: 150px;
+    margin: 20px;
+  }
+  #target,
+  #nasa {
+    width: 80px;
+  }
+  #ny {
+    width: 170px;
+    margin: 20px;
+  }
+  .logos {
+    padding: 20px;
+  }
+  .ivory > p {
+    font-size: 30px;
+    margin: 30px;
+  }
+}
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
